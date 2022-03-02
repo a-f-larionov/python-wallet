@@ -1,9 +1,8 @@
-# python-wallet
+#code : python-wallet
 
-Demo roject
+#Demo Project: Primitive wallet
 
-Primitive wallet
+####Run from command line:
 
-set FLASK_APP=sample
-
-python -m flask run
+    set FLASK_APP=sample
+    python -m flask run
