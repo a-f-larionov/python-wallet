@@ -21,3 +21,12 @@
     print("Hello Python World!")
 
 ![](images/hello-world-1.png)
+
+1.4 Запустить проект
+
+Выбрать в меню Run > Run...
+![](images/run-project-1.png)
+Выбрать hello-world
+![](images/run-project-2.png)
+Видим результат: 
+![](images/run-project-3.png)
