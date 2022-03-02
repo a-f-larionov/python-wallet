@@ -10,7 +10,8 @@ app = Flask(__name__)
 def hello_world():
     return \
         "<a href='/show_list'>list</a><br>" \
-        "<a href='/add_user'>add_user</a><br>"
+        "<a href='/add_user/user_name'>add_user</a><br>"\
+        "<a href='/income/user_name/123'>income</a><br>"
 
 
 @app.route("/add_user/<name>")

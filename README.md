@@ -1,2 +1,5 @@
 # python-wallet
-Python Primitive Wallet
+
+set FLASK_APP=sample
+
+python -m flask run
