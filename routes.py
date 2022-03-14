@@ -15,17 +15,17 @@ def hello_world():
 
 
 @app.route("/add_user/<name>")
-def add_user(name):
+def route_add_user(name):
     db_add_user(name)
     return f"Hello, {escape(name)}!"
 
 
 @app.route("/income/<name>/<income>")
-def user_add_money(name, income):
+def route_income(name, income):
     db_user_add_money(name, income)
     return "OK"
 
 
 @app.route("/show_list")
-def show_list():
+def route_show_list():
     return db_show_list()

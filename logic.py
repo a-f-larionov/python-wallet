@@ -7,7 +7,6 @@ def db_add_user(name):
     print("add user" + name)
     w1 = Wallet(userName=name, sum=0)
     w1.save()
-    return 5
 
 
 def db_user_add_money(name, income):
