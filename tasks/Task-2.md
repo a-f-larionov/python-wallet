@@ -1,32 +1,30 @@
 ###### Задача 2
-###Знакомство с проектом
 
-Когда начинаешь работать в ИТ, на работе, 
-тебя сначала знакомят с проектом.
+### Знакомство с проектом
 
+Когда начинаешь работать в ИТ, на работе, тебя сначала знакомят с проектом.
 
 1. Скопируй репозиторий к себе на компьютер, скачай и распакуй:
    ![](../images/run-wallet-1.png)
 2. Открой папку проекта:
    ![](../images/run-wallet-2.png)
 3. Скачай пакеты: pewee, markupsafe, flask:
-Надо открыть файлы: models.py и  app.py(старое: routes.py)
-и навести мышку на название пакетов, всплывет окно, там нажми "Install package"
-    ![](../images/run-wallet-3.png)
-    ![](../images/run-wallet-4.png)
+   Надо открыть файлы: models.py и app.py(старое: routes.py)
+   и навести мышку на название пакетов, всплывет окно, там нажми "Install package"
+   ![](../images/run-wallet-3.png)
+   ![](../images/run-wallet-4.png)
 
 4. Запусти проект:
-    
-    set FLASK_APP=sample
-    python -m flask run
 
+   set FLASK_APP=sample python -m flask run
 
 ![](../images/run-wallet-5.png)
 
-5. Открой браузер: 
-    ![](../images/run-wallet-6.png)
+5. Открой браузер:
+   ![](../images/run-wallet-6.png)
 
 Тут ты видишь список из 3ёх ссылок:
+
 - list - выведет пользователей и их баланс
 - user_add - добавит пользователя
 - income - добавляет деньги на счёт пользователя
