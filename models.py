@@ -8,4 +8,4 @@ class Wallet(Model):
     userName = CharField()
 
     class Meta:
-        database = walletDB  # database here
+        database = walletDB
