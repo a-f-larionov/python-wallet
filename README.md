@@ -7,14 +7,6 @@
 _Все задачи основаны на реальных событиях :)_
 
 
-####Запуск проекта из коммандной строки:
-
-    set FLASK_APP=sample
-    python -m flask run
-
-
-
-
 ### Задачи:
 
 1. [Python Hello World](tasks/Task-1.md)
