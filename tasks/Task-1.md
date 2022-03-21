@@ -9,6 +9,8 @@
 ![](../images/create-project-1.png)
 
 3. Создай файл hello-world.py c содержимым:
+
+[пример тут](/hello-world.py)
     
 
     `print("Hello Python World!")`
